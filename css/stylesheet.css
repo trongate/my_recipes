@@ -1,0 +1,25 @@
+body {
+    background-color: steelblue;
+    margin: 0;
+}
+
+.container {
+    width: 1200px;
+    background-color: ivory;
+    margin: 0 auto;
+    padding: 1em;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    margin: 0 auto;
+    width: max-content;
+}
+
+li {
+    margin-bottom: 1em;
+}
