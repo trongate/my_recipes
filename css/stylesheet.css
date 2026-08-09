@@ -11,11 +11,11 @@ body {
     min-height: 100vh;
 }
 
-h1 {
+h1, h2 {
     text-align: center;
 }
 
-ul {
+ul, ol {
     margin: 0 auto;
     width: max-content;
 }
@@ -23,3 +23,84 @@ ul {
 li {
     margin-bottom: 1em;
 }
+
+.image-container {
+    max-width: 820px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+p {
+    width: 720px;
+    margin: 1em auto;
+}
+
+.key-stats {
+    width: 760px;
+    margin: 3em auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.key-stats > div {
+    background-color: #fff;
+    border: 1px #000 solid;
+    border-radius: 12px;
+    min-width: 12em;
+    display: flex;
+    flex-direction: column;
+}
+
+.key-stats > div > span {
+    padding: .6em;
+}
+
+.key-stats > div > span:nth-child(2) {
+    font-weight: bold;
+    font-size: 1.3em;
+    padding-top: 0;
+}
+
+table {
+    width: 100%;
+    max-width: 700px;
+    border: 1px #000 solid;
+    background-color: #fff;
+    margin: 1em auto;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+th, td {
+    border: 1px #000 solid;
+    padding: .6em;
+}
+
+tr > td:nth-child(2) {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #d9e7f2;
+}
+
+
+
+
+
+
+
+
+
+
+
