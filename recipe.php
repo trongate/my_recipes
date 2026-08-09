@@ -113,33 +113,24 @@ $instructions = [
                 </tr>
             </thead>
             <tbody>
+                <?php
+                foreach($ingredients as $item) { ?>
                 <tr>
-                    <td>Some ingredient goes here</td>
-                    <td>15</td>
-                </tr>
-                <tr>
-                    <td>Some ingredient goes here</td>
-                    <td>15</td>
-                </tr>
-                <tr>
-                    <td>Some ingredient goes here</td>
-                    <td>15</td>
-                </tr>
-                <tr>
-                    <td>Some ingredient goes here</td>
-                    <td>15</td>
-                </tr>
-                <tr>
-                    <td>Some ingredient goes here</td>
-                    <td>15</td>
-                </tr>
+                    <td><?= $item['ingredient'] ?></td>
+                    <td><?= $item['amount'] ?></td>
+                </tr><?php
+                }
+                ?>
             </tbody>
         </table>
         <h2>Instructions</h2>
         <ol>
-            <li><strong>Step one</strong> to go here</li>
-            <li><strong>Step two</strong> to go here</li>
-            <li><strong>Step three</strong> to go here</li>
+            <?php
+            foreach($instructions as $instruction) { ?>
+            <li><strong><?= $instruction['title'] ?></strong> <?= $instruction['description'] ?></li>
+            <?php
+            }
+            ?>
         </ol>
     </div>
 </body>
