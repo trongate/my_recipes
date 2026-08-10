@@ -1,5 +1,22 @@
 <?php
-include('data/tomato_soup.php');
+$recipe_id = $_GET['recipe_id'];
+
+
+settype($recipe_id, 'int');
+var_dump($recipe_id);
+die();
+
+switch($recipe_id) {
+    case 1:
+        include('data/tomato_soup.php');
+        break;
+    case 2:
+        include('data/chicken_tikka.php');
+        break;
+    case 3:
+        include('data/spagbol.php');
+        break;
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">

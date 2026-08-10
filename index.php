@@ -10,9 +10,9 @@
     <div class="container">
         <h1>My Recipes</h1>
         <ul>
-            <li><a href="recipe.php">Rustic Tomato Soup</a></li>
-            <li><a href="recipe.php">Chicken Tikka Masala</a></li>
-            <li><a href="recipe.php">Spaghetti Bolognese</a></li>
+            <li><a href="recipe.php?recipe_id=1">Rustic Tomato Soup</a></li>
+            <li><a href="recipe.php?recipe_id=2">Chicken Tikka Masala</a></li>
+            <li><a href="recipe.php?recipe_id=3">Spaghetti Bolognese</a></li>
         </ul>
     </div>
 </body>
