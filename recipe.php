@@ -1,10 +1,6 @@
 <?php
 $recipe_id = $_GET['recipe_id'];
-
-
 settype($recipe_id, 'int');
-var_dump($recipe_id);
-die();
 
 switch($recipe_id) {
     case 1:
