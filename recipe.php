@@ -12,6 +12,9 @@ switch($recipe_id) {
     case 3:
         include('data/spagbol.php');
         break;
+    default:
+        header('Location: index.php');
+        die();
 }
 ?>
 <!DOCTYPE html>
